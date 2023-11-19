@@ -1,0 +1,323 @@
+@media (max-width:78em) {
+  .primary-heading{
+    font-size: 5.4rem;
+  }
+}
+
+@media (max-width:70em) {
+  .main-link{
+    gap: 2.4rem;
+  }
+  html
+  {
+    font-size: 56.23%
+  }  
+
+}
+
+
+@media (max-width:57em) {
+  html
+  {
+    font-size: 50%;
+  }
+
+}
+
+@media (max-width:54em) {
+  .primary-heading{
+    font-size: 4.4rem;
+  }
+  .main-link{
+    gap: 1.8rem;
+  }
+}
+
+@media (max-width:54em) {
+html
+{
+  font-size: 45%;
+}
+}
+
+@media (max-width:45em) {
+  .header-content
+  {
+    width: 80%;
+  }
+  .main-link{
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 70%;
+    height: 100vh; 
+    background-color: rgba(61, 105, 72, 0.93); 
+  
+  
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    
+    transition: all 0.5s ease-in;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .nav-open .main-link{
+    opacity: 1;
+    pointer-events:auto;
+    visibility: visible;
+   
+  }
+
+  
+  .nav-open .icon-mobile-nav[name="close-outline"]
+  {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"]
+  {
+    display: none;
+  }
+
+
+  body
+  {
+    overflow-x:hidden ;
+  }
+
+  .icon-mobile-nav
+  {
+    display: block;
+  }
+  .logos img
+  {
+    height: 3.2rem;
+  }
+
+  .btn-mobile-nav
+  {
+    display: block;
+  }
+
+  .main-link a
+  {
+    font-size: 3.2rem;
+    color: #fff;
+  }
+
+  .call-to-action button
+  {
+    font-size: 3.2rem;
+    
+  }
+}
+
+@media (max-width:43em) {
+  .vacation
+  {
+    display: grid;
+    grid-template-columns: 1fr;
+
+  }
+
+  .testimonials
+  {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2.4rem;
+  }
+  .testimonials-img
+  {
+    row-gap: 1.6rem;
+  }
+
+  .gallary-img
+  {
+   height: 100%;
+   width: 100%;
+  }
+  .heading-forth
+  {
+    font-size: 2.0rem;
+  }
+  .login-img
+  {
+    height: 100%;
+    align-self: center ;
+  }
+
+  .login-section1
+  {
+    display: grid;
+    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction:column-reverse;
+    row-gap: 2.4rem;
+  }
+
+  .about-section1
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3.2rem;
+  }
+
+  .about-section
+  {
+    display: grid;
+    row-gap: 2.4rem;
+  }
+
+  .summer::after {
+    content: "Popular";
+    position: absolute;
+    top: 6%;
+    right: -9%;
+    text-transform: uppercase;
+    font-size: 1.8  rem;
+    font-weight: 700;
+    color: #f1f3f5;
+    background-color: #fa5252;
+    padding: 0.8rem 8rem;
+    transform: rotate(45deg);
+}
+
+.cta-form div{
+  width: 100%;
+}
+}
+
+@media (max-width:42em) {
+ .header-actions
+ {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.2rem;
+ } 
+
+ .header-actions button
+ {
+  padding: 1.2rem 2.4rem;
+  text-align: center;
+ }
+
+ .footer-section1
+ {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 3.2rem;
+ }
+
+ .normal-text1
+ {
+  font-size: 1.8rem;
+ }
+
+ .footer-section2
+ {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1.8rem;
+ }
+
+ .logos img
+ {
+  height: 1.8rem;
+ }
+
+ .primary-heading{
+  font-size: 3.8rem;
+ }
+
+ .secondary-heading
+ {
+   font-size: 3.2rem;
+ }
+
+ .heading-teritary
+ {
+  font-size: 2.8rem;
+ }
+
+
+ .about-section1{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+
+}
+
+@media (max-width:22em) {
+ 
+  .footer-section2
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ 
+    row-gap: 2.4rem;
+  }
+ 
+ .logos
+ {
+  padding: 0 0;
+  display: grid;
+  row-gap: 1.8rem;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+
+ .footer-section
+ {
+  padding: 4.8rem 0;
+ }
+
+ .testimonials
+ {
+  row-gap: 4.4rem;
+  padding: 0 1.2rem;
+ }
+
+ .contect-section
+ {
+  grid-area: 2/span 2;
+ }
+
+ .testimonials-image
+ {
+  width: 14rem;
+  height: 14rem;
+ }
+
+ .summer::after {
+  content: "Popular";
+  position: absolute;
+  top: 6%;
+  right: -14%;
+  text-transform: uppercase;
+  font-size: 1.8 rem;
+  font-weight: 700;
+  color: #f1f3f5;
+  background-color: #fa5252;
+  padding: 0.8rem 8rem;
+  transform: rotate(45deg);
+}
+
+.header-logo
+{
+  font-size: 3.2rem;
+}
+
+.suggestion-box
+{
+  background-color: #d3f9d8;
+}
+}
